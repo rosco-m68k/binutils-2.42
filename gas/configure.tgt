@@ -303,6 +303,8 @@ case ${generic_target} in
   m68k-*-netbsd*)			fmt=elf em=nbsd ;;
   m68k-*-haiku*)			fmt=elf em=haiku ;;
 
+  m68k-*-rosco*)            fmt=elf ;;
+
   s12z-*-*)				fmt=elf ;;
 
   mep-*-elf)				fmt=elf ;;

@@ -1249,6 +1249,10 @@ case "${targ}" in
     ;;
 #endif
 
+  m68*-*-rosco* )
+    targ_defvec=m68k_elf32_vec
+    ;;
+
   rl78-*-elf)
     targ_defvec=rl78_elf32_vec
     targ_underscore=yes

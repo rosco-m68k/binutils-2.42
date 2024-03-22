@@ -507,6 +507,8 @@ m68*-*-netbsd*)	targ_emul=m68kelfnbsd
 			;;
 m68*-*-haiku*)		targ_emul=m68kelf
 			;;
+m68*-*-rosco*)		targ_emul=m68kelfrosco
+			;;
 m68*-*-*)		targ_emul=m68kelf
 			;;
 mcore-*-pe)		targ_emul=mcorepe ;
